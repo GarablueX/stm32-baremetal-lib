@@ -26,7 +26,7 @@ void clock_Init(void){
 
 int main(void)
 {
-	HAL_Init();
+
 	clock_Init();
 	LCD_INIT();
 	LCDReset();
